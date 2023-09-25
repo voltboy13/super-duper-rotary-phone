@@ -18,4 +18,5 @@ export const createServer = (handlerConfig)=>{
     afterAll(()=>{
         server.close()
     })
+    console.log('2')
 }
